@@ -9,6 +9,8 @@ declare function convert (
     page_numbers?: number[]
     /** Output as base64 */
     base64?: boolean
+    /** Output Scale Factor */
+    scale?: number
   }
 ): (string|Uint8Array)[]
 
